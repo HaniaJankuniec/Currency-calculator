@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kalkulatorek</title>
+	<link href="style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+	<script defer src="script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="calculator">
+			<h1>Kalkulator</h1>
+			<p>Wpisz kwotę</p>
+			<p>Wybierz walutę</p>
+			<p>Przelicz</p>
+			<form>
+				<label>Ile hajsu (PLN):</label>
+				<input class="js-pln" placeholder="Kwota w PLN" type="number" min="0" step="0.1" pattern="[-+]?[0-9]*[.,]?[0-9]+" required>
+			</form>
+			<form>
+				<input type="radio" class="js-currency" name="currency" value=4.4065 id="EUR">
+				<label>EUR</label>
+				<input type="radio" class="js-currency" name="currency" value=3.9843 id="USD">
+				<label>USD</label>
+				<input type="radio" class="js-currency" name="currency" value=5.15456 id="GBP">
+				<label>GBP</label>
+			</form>
+			<input type="submit" class="button" value="Przelicz">
+			<div class="js-result"></div>
+		</div>
+	</div>
+	<div>
+		<p>kursy pochodzą ze strony <a href="https://wise.com/pl/currency-converter/">https://wise.com/pl/currency-converter/<a></p>
+	</div>
+</body>
+
+</html>
