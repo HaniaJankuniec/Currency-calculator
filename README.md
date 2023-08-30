@@ -11,8 +11,6 @@ Welcome to the Currency Calculator project! This is a simple web application tha
 - Usage
 - Installation
 - Technologies Used
-- Contributing
-- License
 
 ## Introduction
 
