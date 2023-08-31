@@ -8,8 +8,8 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background-color: #158e7f;
-	font-family: 'Roboto', sans-serif;
+	background-image: url(https://www.dropbox.com/scl/fi/xwq18ilg1llfpe8pgdy62/money-seamless-vectorportal.png?rlkey=q9brpd0sr5cba6fuan0gpodlq&raw=1);
+	font-family: "Roboto", sans-serif;
 }
 .container {
 	display: flex;
@@ -65,8 +65,9 @@ body {
 .information {
 	display: flex;
 	justify-content: center;
+	color: white;
 }
 .information a:link {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
